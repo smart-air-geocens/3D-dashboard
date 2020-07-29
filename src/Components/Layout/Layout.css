@@ -1,0 +1,31 @@
+.container {
+    min-height: 300vh;
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+}
+
+.Header{
+    text-align: center;
+    height: 56px;
+    margin-bottom: auto;
+    background-color: #2e2e2e;
+    opacity: 0.9;
+    box-shadow: 0px 2px 3px #222222;
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 2;
+}
+
+.MapLayout {
+    height: 50px;
+    background-color: #C5C6C7;
+    margin-bottom: auto;
+    box-shadow: 0px 2px 3px #222222;
+    position: fixed;
+    top: 56px;
+    right: 0px;
+    width:100%;
+}
+

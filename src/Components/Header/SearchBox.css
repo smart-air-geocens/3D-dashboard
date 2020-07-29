@@ -1,0 +1,75 @@
+.react-autosuggest__container {
+    position: relative;
+}
+
+.react-autosuggest__input {
+    width: 100%;
+    height: 40px;
+    padding: 0 35px;
+    font-family: "Roboto Condensed";
+    line-height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.react-autosuggest__input--focused {
+    outline: none;
+}
+
+.react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+    display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    max-height: 200px;
+    background-color: white;
+    font-family: "Roboto Condensed";
+    overflow-y: scroll;
+    font-size: 14px;
+    margin-left: 5px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+    margin-left: 0;
+    text-align: center;
+    padding: 0;
+    /*list-style-type: none;*/
+}
+
+.react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+}
+
+.inputContainer {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    width: 24px;
+    height: 24px;
+}
+

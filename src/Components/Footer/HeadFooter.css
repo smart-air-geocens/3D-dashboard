@@ -1,0 +1,122 @@
+.footerHeaderContainer{
+    display: flex;
+    flex-flow: column wrap;
+    color: #6e6e6e;
+    letter-spacing: 0.5px;
+    font-family: roboto condensed;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width:100%;
+    background-color: #ECECEE;
+    height: 30px;
+
+}
+
+/*.footerHeaderContainer > * {*/
+/*    padding: 10px;*/
+/*    flex: 1 100%;*/
+/*}*/
+
+.footerHeaderFirstCol{
+    text-align: left;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: column wrap;
+    height: 30px;
+    width: 33.3%;
+    padding: 5px 0 5px 0;
+}
+.footerHeaderFirstColFirstColumn{
+    /*flex-grow: 2;*/
+    color: #6e6e6e;
+    font-size: 12px;
+    font-weight: 700;
+    margin:0px;
+    /*width:50%;*/
+    cursor: pointer;
+}
+
+.footerHeaderFirstColFirstColumn:hover{
+   opacity: 0.5;
+}
+
+.footerHeaderFirstColSecondColumn{
+    /*flex-grow: 6;*/
+    margin:0px;
+
+    /*width:35%;*/
+    font-size: 13px;
+}
+.footerHeaderFirstColThirdColumn{
+    /*flex-grow: 2;*/
+    margin:0px;
+    /*width:15%;*/
+    font-size: 12px;
+}
+
+.footerHeaderSecondCol{
+    /*flex-grow: 7;*/
+    text-align: center;
+    padding: 5px 0 5px 0;
+    font-size: 14px;
+    width: 33.3%;
+}
+.footerHeaderThirdCol{
+    /*flex-grow: 1;*/
+    width: 33.3%;
+    text-align: right;
+    justify-content: end;
+    display: flex;
+    flex-flow: column wrap;
+    height: 30px;
+}
+
+.footerHeaderThirdColFirstColumn{
+   width:33.3%;
+}
+.footerHeaderThirdColSecondColumn{
+    width:33.3%;
+}
+.footerHeaderThirdColThirdColumn{
+    width:33.3%;
+}
+
+.Container{
+    text-align: center;
+    color:rgb(236,236,238);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: roboto condensed;
+    opacity:'0.6';
+}
+.ContRow{
+    height: 30px;
+    background-color: rgb(236,236,238);
+    font-family: roboto condensed;
+    opacity:'0.6';
+}
+.right_images
+{
+    float: right;
+    display: table;
+}
+.right_images_r
+{
+    float: right;
+    display: table;
+    margin-right: 40px;
+}
+.left_images_l
+{
+    float: right;
+    display: table;
+    margin-left: 40px;
+}
+.col-centered{
+    vertical-align: middle;
+    margin: 0 auto;
+}

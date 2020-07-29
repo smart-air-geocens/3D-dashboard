@@ -1,0 +1,48 @@
+.menu-item {
+    padding: 0 40px;
+    margin: 5px 10px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+}
+
+.scroll-menu-arrow {
+    cursor: pointer;
+    background: #ccc;
+    border-radius: 8px;
+    width:36px;
+    height:96px;
+    padding: 20px;
+    border: 0;
+    transition: box-shadow .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1);
+}
+.scroll-menu-arrow:hover {
+    cursor: pointer;
+    background: #E7E7E9;
+}
+
+.menu-wrapper {
+    width:100%;
+}
+
+
+/*.menu-item {*/
+/*    padding: 0 40px;*/
+/*    margin: 5px 10px;*/
+/*    user-select: none;*/
+/*    cursor: pointer;*/
+/*    border: none;*/
+/*}*/
+
+.inactive {
+    pointer-events: none;
+}
+
+/*.menu-item.active {*/
+/*    !*border: 1px green solid;*!*/
+/*}*/
+
+/*.scroll-menu-arrow {*/
+/*    padding: 20px;*/
+/*    cursor: pointer;*/
+/*}*/

@@ -1,0 +1,101 @@
+.infoBoxCustomized
+{
+    top:0;
+    border-radius: 4px;
+    height: 154px;
+    width: 292px;
+    background: #fff;
+    box-shadow: 0 3px 14px rgba(232, 184, 30, 0.7);
+    padding: 1px;
+    z-index: 3;
+    text-align: left;
+    position: absolute;
+}
+
+.infoBoxCustomized::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 0.7em solid transparent;
+    position: absolute;
+    left: calc(50% - 10px);
+    top:100%;
+    bottom: -20px;
+    z-index:2;
+    border-top: 10px solid white;
+}
+
+.infoBoxCustomizedTop{
+    background-color: #ffc100;
+    /*border-radius: 2px 2px 0 0;*/
+    color: #2E2E2E;
+    padding: 0 0 1px 8px;
+    font-size: 0.7em;
+    font-weight: 700;
+    line-height: 1.5em;
+    font-size: 14px;
+    font-family: roboto condensed;
+}
+
+.infoBoxCustomizedTopDescription{
+    font-size: 14px;
+    line-height: 2em;
+    padding: 1px 0 3px 8px;
+    color: #2e2e2e;
+    font-family: roboto condensed;
+    background-color: #ffc100;
+    border-radius: 2px 2px 0 0;
+}
+
+.infoBoxCustomizedTimeUpdate{
+    font-size: 11px;
+    line-height: 2em;
+    padding: 2px 0 0 8px;
+    color: #2e2e2e;
+    font-family: roboto condensed;
+    background-color: #ffc100;
+    border-radius: 2px 2px 0 0;
+}
+.timeUpdateLeft{
+    width: 5%;
+    float: left;
+}
+
+.timeUpdateRight {
+    margin-left: 2%;
+    margin-top: 0.5%;
+}
+
+.infoBoxCustomizedDescription{
+    font-size: 14px;
+    line-height: 2em;
+    padding: 2px 0 0 8px;
+    color: #2e2e2e;
+    font-family: roboto condensed;
+    background-color: #ffffff;
+    border-radius: 2px 2px 0 0;
+}
+.infoBoxCustomizedLabels{
+    font-size: 12px;
+    line-height: 1.4em;
+    padding: 8px 0 0 8px;
+    color: #2e2e2e;
+    font-family: roboto condensed;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 2px 2px 0 0;
+}
+
+.infoBoxCustomizedLabel{
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 24px;
+    border-radius: 20px;
+    padding: 3px 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    float: left;
+    background-color: #ffd44d;
+    color: #2e2e2e;
+}
+

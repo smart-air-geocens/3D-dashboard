@@ -1,0 +1,16 @@
+.wrapper {
+    /* Size and position */
+    position: relative; /* Enable absolute positioning for children and pseudo elements */
+    width: 200px;
+    padding: 10px;
+    margin: 0 auto;
+
+    /* Styles */
+    background-color: #ffffff;
+    color: rgb(26, 24, 24);
+    outline: none;
+    cursor: pointer;
+
+    /* Font settings */
+    font-weight: bold;
+}

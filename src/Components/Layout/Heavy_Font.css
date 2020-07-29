@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Coda-Heavy';
+    src: 
+        url('../../assets/Coda-Heavy.ttf'); /* Safari, Android, iOS */
+  }
+  body {
+    font-family: 'Coda-Heavy';
+  }

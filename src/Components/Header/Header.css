@@ -1,0 +1,30 @@
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    float: left;
+    width:100%;
+    height: 56px;
+    background-color: #2E2E2E;
+}
+
+.fontBig{
+    line-height: 1em;
+    font-family: "Roboto Condensed";
+    font-size: 0.7vw;
+    text-align: left;
+}
+.fontSmall{
+    font-family: "Roboto Condensed";
+    font-size: 0.5vw;
+    text-align: left;
+    line-height: 0;
+}
+
+.headerContainerSecondColumn{
+    text-align: center;
+    padding: 8px 0 8px 0;
+    font-family: roboto condensed;
+    width: 33.3%;
+    height: 56px;
+}

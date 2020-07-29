@@ -1,0 +1,67 @@
+.FooterKitBox{
+    position: relative;
+    color: #6e6e6e;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    /*max-width: 100px;*/
+    min-width: 70px;
+    font-family: roboto condensed;
+    font-size: 18px;
+}
+
+.hiddenItem { display:none; }
+
+.FooterKitBox:hover {
+    color: #9e9e9e;
+}
+
+
+.FooterKitIcon{
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+}
+
+.FooterSensorValue {
+    width: 50%;
+    font-size: 32px;
+    font-family: Kanit;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.FooterKitSecondColumn{
+    height: 100%;
+    width: 100%;
+    font-size: 34px;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.FooterKitUofM{
+    font-family: "Roboto Condensed";
+}
+.FooterKitFirstRow{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+.FooterKitSecondRow{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+.FooterKitBoxUofM{
+    position: relative;
+    color: #6e6e6e;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    font-family: roboto condensed;
+    font-size: 18px;
+}
+

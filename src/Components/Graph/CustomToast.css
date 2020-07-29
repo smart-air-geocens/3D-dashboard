@@ -1,0 +1,19 @@
+.background{
+    background-color: dodgerblue;
+}
+.body{
+    color:black;
+	font-family: arial;
+	font-style: italic;
+	font-weight: bold;
+}
+.progressbar{
+    height: 5px;  /* Can be anything */
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
