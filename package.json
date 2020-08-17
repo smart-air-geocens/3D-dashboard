@@ -1,5 +1,5 @@
 {
-  "name": "GeoCENS_Dashboard",
+  "name": "airquality-simulator-dashboard",
   "version": "0.0.1",
   "homepage": "./",
   "private": true,
@@ -83,8 +83,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject",
-    "deploy": "aws s3 sync build/ s3://bera-3d-dashboard --acl public-read"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
