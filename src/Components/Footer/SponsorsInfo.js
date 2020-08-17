@@ -10,7 +10,7 @@ const SponsorsInfo = () => {
     return (
         <div className='sponsorsContainer'>
             <div className="sponsorsContainerFirstRow">
-                <span className="sponsorsContainerFirstRowSpan">Funders / Industry Partners</span>
+                <span className="sponsorsContainerFirstRowSpan"></span>
             </div>
             <div className="sponsorsContainerSecondRow">
 
