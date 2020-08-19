@@ -37,25 +37,25 @@ Serve the app to browser by running following codes on your terminal:
 
 Finally you should be able to see the dashboard running on your browser: [http://localhost:3000/](http://localhost:3000/)
 
-![alt text](fig1 "3D Dashboard")
+![alt text](https://github.com/smart-air-geocens/3D-dashboard/blob/master/images/fig1.PNG "3D Dashboard")
 
 ## Dashboard Explanation
 
 Generally, the content of 3D dashboard can be categorized into 3 main components including Header, Map, and Footer. As seen in the following image, each component has its own subcomponents. In this section, different components will be briefly explained.
 
-![alt text](fig2 "3D Dashboard Components")
+![alt text](https://github.com/smart-air-geocens/3D-dashboard/blob/master/images/fig2.PNG "3D Dashboard Components")
 
 ### Header
 
 In this component, a search service is implemented. In the search box, all the connected devices to the OGC SensorThings API endpoint are listed based on their name on the endpoint. Users can choose their favorite device, and then the camera will be moved to the location of the selected device on the Map. As shown in the following image, a list of 5 connected devices which starts with letter "GeoCENS" is shown in the search box.
 
-![alt text](fig3 "Header Serach Components")
+![alt text](https://github.com/smart-air-geocens/3D-dashboard/blob/master/images/fig3.PNG "Header Serach Components")
 
 ### Map
 
 n the map component, we used [Resium](https://resium.darwineducation.com/) which is a library of React components for 🌍[CesiumJS](https://cesium.com/cesiumjs/). CesiumJS is an open source JavaScript library for creating world-class 3D globes and maps with the best possible performance, precision, visual quality, and ease of use [1](https://cesium.com/cesiumjs/). It released under the [Apache 2.0 license](https://github.com/CesiumGS/cesium/blob/master/LICENSE.md) and is free for both commercial and non-commercial use. In our dashboard, the Map component has some features as shown in the following image.  
 
-![alt text](fig4 "Map Components")
+![alt text](https://github.com/smart-air-geocens/3D-dashboard/blob/master/images/fig4.PNG "Map Components")
 
 #### Features
 
@@ -120,7 +120,7 @@ A variety of map views are available using Cesium mapping library including:
 
 The main objective of this component is to let users get queries of sensors observations and visualize them on the graph. An overview of this component along with its subcomponents is shown in the following image:
 
-![Footer overview](fig5 "Footer Components")
+![Footer overview](https://github.com/smart-air-geocens/3D-dashboard/blob/master/images/fig5.PNG "Footer Components")
 
 #### Subcomponents
 
