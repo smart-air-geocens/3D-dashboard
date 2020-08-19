@@ -55,7 +55,7 @@ In this component, a search service is implemented. In the search box, all the c
 
 n the map component, we used [Resium](https://resium.darwineducation.com/) which is a library of React components for 🌍[CesiumJS](https://cesium.com/cesiumjs/). CesiumJS is an open source JavaScript library for creating world-class 3D globes and maps with the best possible performance, precision, visual quality, and ease of use [1](https://cesium.com/cesiumjs/). It released under the [Apache 2.0 license](https://github.com/CesiumGS/cesium/blob/master/LICENSE.md) and is free for both commercial and non-commercial use. In our dashboard, the Map component has some features as shown in the following image.  
 
-![alt text](https://github.com/smart-air-geocens/3D-dashboard/blob/master/images/fig4.PNG "Map Components")
+![alt text](https://github.com/smart-air-geocens/3D-dashboard/blob/master/images/fig4.png "Map Components")
 
 #### Features
 
@@ -120,7 +120,7 @@ A variety of map views are available using Cesium mapping library including:
 
 The main objective of this component is to let users get queries of sensors observations and visualize them on the graph. An overview of this component along with its subcomponents is shown in the following image:
 
-![Footer overview](https://github.com/smart-air-geocens/3D-dashboard/blob/master/images/fig5.PNG "Footer Components")
+![Footer overview](https://github.com/smart-air-geocens/3D-dashboard/blob/master/images/fig5.png "Footer Components")
 
 #### Subcomponents
 
